@@ -6,6 +6,8 @@
 
 ### 1. JUJUR DULU — Sampaikan batas dulu, baru bicara hasil
 - Batas keras video bawaan Muse: satu klip sekitar 10 detik, kunci muka lemah, gambar referensi belum tentu mirip, saya tidak bisa melihat video jadi dan tidak bisa mendengar audio.
+- Aturan kamera diam tidak selalu ditaati model saat tokoh berjalan — model cenderung mengikuti tokoh dengan tracking kalau ia menyeberang ruangan (tes 22 Nov 2026).
+- Dialog berbisik bisa terlalu pelan sampai kata-katanya hilang di transkrip; dialog yang diucapkan saat tokoh membelakangi kamera tidak bisa dicek gerakan bibirnya (tes 22 Nov 2026).
 - Semua itu disampaikan ke user SEBELUM mulai — jangan bungkus "trik prompt" seolah itu janji kemampuan.
 - Kartu kasus menulis "pelajaran yang didapat", bukan cuma keberhasilan.
 

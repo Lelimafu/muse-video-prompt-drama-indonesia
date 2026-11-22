@@ -35,6 +35,13 @@ muse-video-prompt-drama-indonesia/
     └── extract_frames.py     # Script extract frame untuk verifikasi
 ```
 
+## Riwayat Perubahan
+- **22 Nov 2026 — perbaikan dari hasil tes Ratna (segmen 1 + 2):** aturan kamera diperkuat — kamera TIDAK PERNAH mengikuti tokoh yang berjalan, tokoh berjalan di dalam frame yang diam; dialog berbisik harus tetap jelas terdengar ("berbisik pelan tapi jelas terdengar"); dialog hanya saat wajah tokoh terlihat kamera, jangan saat membelakangi kamera; ditambah contoh lanjutan segmen (tokoh berjalan) dan 3 kartu kasus baru di `references/cases/cases-2026-11-22.md` (prompt biasa vs template, kamera tracking saat berjalan, sambungan skill lebih mulus tapi bisikan hilang).
+- **22 Nov 2026 (lanjutan) — arah foto dibetulkan:** benda yang ditatap/dipegang tokoh harus menghadap ke tokoh, bukan ke kamera (kamera hanya melihat punggung bingkai); ditambah kartu kasus ke-4 di `references/cases/cases-2026-11-22.md`.
+- **22 Nov 2026 (lanjutan 2) — punggung bingkai harus kosong:** punggung bingkai ditulis KOSONG dan polos (kayu cokelat), jangan ada foto di sisi belakang bingkai; ditambah kartu kasus ke-5 di `references/cases/cases-2026-11-22.md`.
+- **22 Nov 2026 (lanjutan 3) — logika arah foto:** arah foto mengikuti aksi tokoh — pegang sambil menatap = foto menghadap ke tokoh (punggung polos ke kamera); peluk ke dada = foto menghadap ke kamera; ditambah kartu kasus ke-6 di `references/cases/cases-2026-11-22.md`.
+- **22 Nov 2026 (lanjutan 4) — keyframe dulu sebelum generate:** setiap mau generate video, otomatis bikin dulu 3 keyframe, user pilih + lock satu, begitu dipilih LANGSUNG generate; ditambah kartu kasus ke-7 di `references/cases/cases-2026-11-22.md`.
+
 ## Cara install (di akun Muse yang bisa bikin video)
 1. Lampirkan file ZIP ini di chat Muse tersebut.
 2. Minta Muse untuk menyimpan dan mengikuti skill ini sebagai skill yang bisa dipakai ulang.
